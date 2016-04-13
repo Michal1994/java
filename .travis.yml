@@ -1,2 +1,2 @@
 language: java
-install: ant compile;ant run;
+install: ant default;
