@@ -8,6 +8,7 @@
 <!-- You can turn off the Compile on Save (or Deploy on Save) setting -->
 <!-- in the project's Project Properties dialog box.-->
 <project name="test" default="default" basedir=".">
+    <property name="src.dir" value="."/>
     <description>Builds, tests, and runs the project test.</description>
     <import file="build-impl.xml"/>
     <!--
